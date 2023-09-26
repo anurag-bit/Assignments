@@ -7,30 +7,20 @@ https://www.github.com/anurag-bit
 #include<stdio.h>
 #include<math.h>
 
+
+
 int main(){
+    double sine;
+    double cosine;
 
+printf("\t Sin\t \tCosine \t \n");
+ for ( double i = 0.0; i <= 1; i += 0.1)
+ {
+    double rSin = sin(i);
+    double rCos = cos(i);
+printf("\t %lf\t \t%lf \t \n", rSin, rCos);
 
-
-
-
-return ; 
-
-}
-
-
-int sine() {
-
-
-
-return ;
-}
-
-int cosine() {
-
-
-
-
-
-return; 
+ }
+return 0; 
 
 }
