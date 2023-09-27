@@ -8,7 +8,6 @@ https://www.github.com/anurag-bit
 #include<math.h>
 
 
-
 int main(){
     double sine;
     double cosine;
